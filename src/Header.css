@@ -1,0 +1,55 @@
+/* Header.css */
+.header {
+    height: 100vh;
+    width: 200px;
+    padding: 20px;
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: -87%;
+    margin-top: -20px;
+    margin-bottom: -12%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 45px; 
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #fff;
+    color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+}

@@ -1,0 +1,49 @@
+/* Details.css */
+.customer-details {
+    width: 350px; 
+    padding: 30px; 
+    border-radius: 15px; 
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  
+  .form-group {
+    margin-bottom: 25px; 
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; 
+  }
+  
+  .form-group input {
+    padding: 12px; 
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-buttons button {
+    padding: 12px 25px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #ff5555;
+    color: #ffffff;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff3333;
+  }
+  

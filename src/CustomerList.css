@@ -1,0 +1,48 @@
+.customer-list {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .customer-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customer-list li {
+    margin-bottom: 10px;
+  }
+  
+  .customer-name {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .actions {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80px; 
+    text-align: center; 
+    margin-right: 5px; 
+}
+  
+  .actions button:hover {
+    background-color: #0056b3;
+  }
+  
